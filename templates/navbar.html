@@ -1,0 +1,44 @@
+<!-- Static navbar -->
+<nav class="navbar navbar-light" style="background-color: #e6931c">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand">My book store</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/" style="color: #ffffff">Home</a></li>
+        <li><a href="http://cv-sergiishevchenko.ru/" style="color: #ffffff">My portfolio</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+            <div class="basket-container">
+                <a href="" style="color: white">Cart<span id="basket_total_amount"></span><span id="basket_total_nmb">
+                    {% if products_total_nmb %}
+                        ({{ products_total_nmb }})
+                    {% else %}
+                        (0)
+                    {% endif %}
+                </span></a>
+                <div class="basket-items hidden">
+                    <ul class="">
+                        {% for product_in_basket in products_in_basket %}
+                            <li>
+                                {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} item(s)
+                                по {{ product_in_basket.price_per_item }} RU
+                                <a class="delete-item" href="" data-product_id="{{ product_in_basket.id }}">x</a>
+                            </li>
+                        {% endfor %}
+                        <li>
+                            <a href="{% url 'checkout'  %}" style="color: #cc7c1b; font-weight: bold">
+                                Checkout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

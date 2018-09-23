@@ -1,0 +1,2352 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "landing",
+      "model": "subscriber"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "products",
+      "model": "productimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "products",
+      "model": "product"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinorder"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "orders",
+      "model": "status"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "orders",
+      "model": "order"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "products",
+      "model": "productcategory"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinbasket"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "0hre3d31p5792aqi1566g4ox5xf80mab",
+   "fields": {
+      "session_data": "NjkyZjhhODYxZWY5M2E3MmI2ZDZiOWMyZWMyZjljM2FmNDQ2YjExZjp7Il9hdXRoX3VzZXJfaGFzaCI6IjQ1MzYyNjU5MGExOWZkODdjMmUzM2Q2NTBlYmU5ZmU1NDc4OWM1ZGYiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsInNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+      "expire_date": "2018-09-25T17:28:20.375Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2yiyybwcr8l4qgnpgqkey0eky9zeayfx",
+   "fields": {
+      "session_data": "NWY2YjdhMjEwYTFkZTcxMTBhZjZhMjZkNDdiMTgzZjk3ODBiNjk2YTp7Il9hdXRoX3VzZXJfaGFzaCI6ImY4MzhlZjBjYjMwYmMwYjFiOTFkYWJhZWNiNWM4YjBlNWJkM2Q0YTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-02-26T11:33:56.641Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "agrltzu0upx1164ej1fsz3r5oehurbod",
+   "fields": {
+      "session_data": "MmUwNDZlZmYyNWE4MDc5NGJiYzhiZGNjYzMwNjFiNWEwMDU2YzVmNTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiJmODM4ZWYwY2IzMGJjMGIxYjkxZGFiYWVjYjVjOGIwZTViZDNkNGEzIn0=",
+      "expire_date": "2017-04-16T16:24:29.193Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "awpbvmp7vzkmsoi2sfaju8wx7dizzz1y",
+   "fields": {
+      "session_data": "ZWY3YTNlZTdiMDc3ODZiODljN2U0ZWE0YTFiZmU4MTY1OWI1ODEzZDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwic2Vzc2lvbl9rZXkiOjEyMywiX2F1dGhfdXNlcl9oYXNoIjoiNDUzNjI2NTkwYTE5ZmQ4N2MyZTMzZDY1MGViZTlmZTU0Nzg5YzVkZiIsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+      "expire_date": "2018-10-06T09:52:11.714Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "b6ite5vkg92awcym9bj7qtyopfo3shqi",
+   "fields": {
+      "session_data": "MmNjNmJmOTZkZDBhYjBjOTJlNTg4ZmZhNTQyMjNmZjQ3MTc5MDkyZTp7InNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9oYXNoIjoiNDUzNjI2NTkwYTE5ZmQ4N2MyZTMzZDY1MGViZTlmZTU0Nzg5YzVkZiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+      "expire_date": "2018-09-27T17:27:04.932Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "d2gpbqfw15wv1udalzmltcd73gktp75u",
+   "fields": {
+      "session_data": "NDZiMDAzZDhlY2IwNTA1YzM5ZmVlNTI4OWExOTdiZjE2NTY3MDA3ZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZjgzOGVmMGNiMzBiYzBiMWI5MWRhYmFlY2I1YzhiMGU1YmQzZDRhMyIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-02-05T13:51:02.055Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "eu0ciuit1wzhr53sdsu174s8ung4ofhe",
+   "fields": {
+      "session_data": "ZTdmNzBiZjk2Y2ViNDQ1ZTBlNTA0N2MwYmU4ZTEzYjMyNTkxNTJkZDp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwic2Vzc2lvbl9rZXkiOjEyMywiX2F1dGhfdXNlcl9pZCI6IjYiLCJfYXV0aF91c2VyX2hhc2giOiI0NTM2MjY1OTBhMTlmZDg3YzJlMzNkNjUwZWJlOWZlNTQ3ODljNWRmIn0=",
+      "expire_date": "2018-09-26T18:14:04.909Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "l257w2iyyueae74rjwqxvnptp2lutz7d",
+   "fields": {
+      "session_data": "OWYxN2Q4ZWU1MzAwOWNiY2ZlMGQ5OTdjNGEyNzJkYzZmMjdhOWYyZjp7InNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0NTM2MjY1OTBhMTlmZDg3YzJlMzNkNjUwZWJlOWZlNTQ3ODljNWRmIn0=",
+      "expire_date": "2018-09-29T08:47:24.280Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "naxsxf02qjmr3e13dg09je0cafsvyewt",
+   "fields": {
+      "session_data": "YTNlNzA4NDY1ZWJkZTI2ZGUyYjhiOWMyOWE3ZDVjMWU1ZWNkY2FmYTp7InNlc3Npb25fa2V5IjoxMjN9",
+      "expire_date": "2018-09-27T16:34:01.235Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "orfas8kl2xgz8ce2a4udd0nu0ybtrz0g",
+   "fields": {
+      "session_data": "NmM4ZTMwNWQ4MjYwNjkzNDFmMzI1ZDkwMWEzZDVmODE5YzM1NzA3Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwic2Vzc2lvbl9rZXkiOjEyMywiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmODM4ZWYwY2IzMGJjMGIxYjkxZGFiYWVjYjVjOGIwZTViZDNkNGEzIn0=",
+      "expire_date": "2017-05-30T21:27:34.117Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "pv98p0y57341wez1fq50pdmidzm1o5jb",
+   "fields": {
+      "session_data": "YTNlNzA4NDY1ZWJkZTI2ZGUyYjhiOWMyOWE3ZDVjMWU1ZWNkY2FmYTp7InNlc3Npb25fa2V5IjoxMjN9",
+      "expire_date": "2018-09-30T06:25:22.224Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "qte2qiq8awgk79lc2eaxpo69gzjdnusw",
+   "fields": {
+      "session_data": "NjkyZjhhODYxZWY5M2E3MmI2ZDZiOWMyZWMyZjljM2FmNDQ2YjExZjp7Il9hdXRoX3VzZXJfaGFzaCI6IjQ1MzYyNjU5MGExOWZkODdjMmUzM2Q2NTBlYmU5ZmU1NDc4OWM1ZGYiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsInNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+      "expire_date": "2018-09-26T16:20:24.433Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "r3rkdyj2o1azbhj66jaiuyjx0x1zfp7x",
+   "fields": {
+      "session_data": "NTU4MmZiZWMzM2MyOTFjOTRkNDE3OTU5YTliODljYmU1MjNhZjhlMjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjYiLCJfYXV0aF91c2VyX2hhc2giOiI0NTM2MjY1OTBhMTlmZDg3YzJlMzNkNjUwZWJlOWZlNTQ3ODljNWRmIiwic2Vzc2lvbl9rZXkiOjEyM30=",
+      "expire_date": "2018-09-29T09:50:51.591Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "smoo1z3jyolmookrofy30m4de3s77wve",
+   "fields": {
+      "session_data": "YTNlNzA4NDY1ZWJkZTI2ZGUyYjhiOWMyOWE3ZDVjMWU1ZWNkY2FmYTp7InNlc3Npb25fa2V5IjoxMjN9",
+      "expire_date": "2018-09-27T18:18:59.797Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "txg4row4wywk6yrj23lxs2697fjmahhj",
+   "fields": {
+      "session_data": "NDk4NDVlZDg1OGEyYzgzNTFmN2EzNzI5MzA5NzYwM2FhNzc1NTA0ZTp7ImJhc2tldCI6eyJ0b3RhbF9hbW91bnQiOjM4NDAwMC42LCJwcm9kdWN0cyI6W3sicHJpY2UiOiIzMjAwMC4wNSIsImlkIjoiNCIsIm5hbWUiOiJBcHBsZSBNYWNCb29rIDEyXCIgUmV0aW5hIiwibm1iIjoiMTIifV19fQ==",
+      "expire_date": "2017-04-01T09:12:31.207Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "w73dhj8qjoqte04huy77c3xi5fmjpi76",
+   "fields": {
+      "session_data": "NjkyZjhhODYxZWY5M2E3MmI2ZDZiOWMyZWMyZjljM2FmNDQ2YjExZjp7Il9hdXRoX3VzZXJfaGFzaCI6IjQ1MzYyNjU5MGExOWZkODdjMmUzM2Q2NTBlYmU5ZmU1NDc4OWM1ZGYiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsInNlc3Npb25fa2V5IjoxMjMsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+      "expire_date": "2018-09-25T17:50:12.659Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xdx7otue3yw53nuwers9h36jwsm6eb00",
+   "fields": {
+      "session_data": "NWY2YjdhMjEwYTFkZTcxMTBhZjZhMjZkNDdiMTgzZjk3ODBiNjk2YTp7Il9hdXRoX3VzZXJfaGFzaCI6ImY4MzhlZjBjYjMwYmMwYjFiOTFkYWJhZWNiNWM4YjBlNWJkM2Q0YTMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-01-16T23:06:59.535Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "zs63emsna3fwht754vusl7ymmdvq67w3",
+   "fields": {
+      "session_data": "YTNlNzA4NDY1ZWJkZTI2ZGUyYjhiOWMyOWE3ZDVjMWU1ZWNkY2FmYTp7InNlc3Npb25fa2V5IjoxMjN9",
+      "expire_date": "2017-06-13T23:07:10.698Z"
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 1,
+   "fields": {
+      "name": "Books",
+      "is_active": true
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 2,
+   "fields": {
+      "name": "Audiobooks",
+      "is_active": true
+   }
+},
+{
+   "model": "products.product",
+   "pk": 1,
+   "fields": {
+      "name": "Origin. Dan Brown",
+      "price": "1000.00",
+      "discount": 5,
+      "category": 1,
+      "short_description": "",
+      "description": "Robert Langdon, Harvard professor of symbology and religious iconology, arrives at the Guggenheim Museum Bilbao to attend the unveiling of a discovery that \"will change the face of science forever\". The evening's host is his friend and former student, Edmond Kirsch, a forty-year-old tech magnate whose dazzling inventions and audacious predictions have made him a controversial figure around the world. This evening is to be no exception: he claims he will reveal an astonishing scientific breakthrough to challenge the fundamentals of human existence.",
+      "is_active": true,
+      "created": "2017-01-22T15:06:33.679Z",
+      "updated": "2018-09-11T18:20:59.130Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 2,
+   "fields": {
+      "name": "The Dalai Lama's Cat. David Michie",
+      "price": "1200.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "In the months that followed I watched His Holiness working on a new book. I began to think that perhaps the time had come for me to turn my paws to a book of my own. One that tells my own tale. How I was rescued from a fate too grisly to contemplate, to become constant companion to a man who is not only one of the world's greatest spiritual leaders and a Nobel Peace Prize laureate, but who is also a dab hand with the can opener.' Not so much fly-on-the-wall as cat-on-the-sill, this is the warm-hearted tale of a small kitten rescued from the slums of New Delhi who finds herself in a beautiful sanctuary with sweeping views of the snow-capped Himalayas.",
+      "is_active": true,
+      "created": "2017-02-05T09:48:52.336Z",
+      "updated": "2018-09-11T18:21:23.204Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 3,
+   "fields": {
+      "name": "The Greatest Salesman in the World. Og Mandino",
+      "price": "1500.00",
+      "discount": 15,
+      "category": 1,
+      "short_description": "",
+      "description": "Each generation produces its \"literature of power\". This type of writing literally has the power to change the reader's life. In this tradition. In the Greatest Salesman in the World is destined to influence countless lives. Here is the legend of Hafid, a camel boy of two thousand years ago and his burning desire to improve his lowly position in life. To prove his potential ability, he is dispatched from Bethlehem by his master, the great caravan merchant, Pathros, to sell only one robe. He fails and instead, in a moment of pity, gives the robe to warm a newborn baby in a cave near the inn. Hafid returns to the caravan in shame but is accompanied by a bright star shining above his head. This phenomenon is interpreted by Pathros to be a sign from the gods and he gives Hafid ten ancient scrolls, which contain the wisdom necessary for the boy to achieve all his ambitions.",
+      "is_active": true,
+      "created": "2017-02-05T09:53:07.537Z",
+      "updated": "2018-09-11T18:21:28.337Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 4,
+   "fields": {
+      "name": "Siddhartha. Hermann Hesse",
+      "price": "1225.00",
+      "discount": 5,
+      "category": 1,
+      "short_description": "",
+      "description": "Siddhartha is an allegorical novel by Hermann Hesse which deals with the spiritual journey of an Indian boy called Siddhartha during the time of the Buddha. The book was written in German, in a simple, yet powerful and lyrical style. It was first published in 1922, after Hesse had spent some time in India in the 1910s. The story revolves around a young man who leaves his home and family on a quest for the Truth. Embarking on a journey that takes him from the austerities of renunciation to the profligacy of wealth. That leads him through the range of human experiences from hunger and want, to passion, pleasure, pain, greed, yearning, boredom, love, despair and hope. A journey that leads finally to the river, where he gains peace and eventually wisdom. This is the story of Siddhartha as told by Nobel Laureate Hermann Hesse in his most influential work.",
+      "is_active": true,
+      "created": "2017-02-05T09:54:29.484Z",
+      "updated": "2018-09-11T18:25:34.056Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 5,
+   "fields": {
+      "name": "Moby Dick. Herman Melville",
+      "price": "850.00",
+      "discount": 3,
+      "category": 2,
+      "short_description": "",
+      "description": "Moby Dick is a novel by American author Herman Melville. It is the story of captain Ahab\u2019s quest for revenge against the titular white whale Moby Dick. The whale has on a previous voyage destroyed Ahab's ship and severed his leg at the knee. The story is narrated by the sailor Ishmael.\r\nOriginally the novel was a failure but in the 20th century it was rediscover and recognized as work of literary genius.",
+      "is_active": true,
+      "created": "2018-09-11T18:30:23.056Z",
+      "updated": "2018-09-11T18:30:23.056Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 6,
+   "fields": {
+      "name": "Beneath Copper Falls. Colleen Coble",
+      "price": "850.00",
+      "discount": 4,
+      "category": 2,
+      "short_description": "",
+      "description": "Dana Newell has just moved to Rock Harbor to take a job as a sheriff's dispatcher and is settling in next door to Bree and Kade Matthews. The abusive relationship she left behind seems a distant memory in this perfect place.\r\nHer first day on the job, Dana receives a call from her friend Allyson who screams \"He's going to kill me too\" before the phone goes dead. Dana immediately dispatches a deputy, but it's too late. Allyson's death is ruled an accident, but Dana just doesn't believe it. She knows Allyson\u2014an investigative reporter\u2014was researching a new story. Did someone want to keep her quiet?\r\nDana continues to look into the accident with the help of Bree and also Allyson's cousin Boone. Romance quickly blooms between Dana and Boone but the game is much more complex than either of them imagined. When Dana's ex-fiance locates her, she's caught in the middle. It\u2019s a game of cat and mouse as she and Boone fight to catch one killer while evading another.",
+      "is_active": true,
+      "created": "2018-09-12T15:33:20.617Z",
+      "updated": "2018-09-12T15:33:20.618Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 7,
+   "fields": {
+      "name": "The Twelfth Imam. Joel C. Rosenberg",
+      "price": "900.00",
+      "discount": 0,
+      "category": 2,
+      "short_description": "",
+      "description": "Tensions are rising in the Middle East. Iran\u0092s president vows to annihilate the United States and Israel. Israel\u0092s prime minister says someone must hit Iran\u0092s nuclear sites \u0093before it\u0092s too late.\u0094 The American president warns against a preemptive strike on Iran\u0092s nuclear facilities and says negotiations are the key to finding peace.\r\nAnd amid it all, rumors are swirling throughout the region of a mysterious religious cleric claiming to be the Islamic messiah known as the Mahdi or the Twelfth Imam. Word of his miracles, healings, signs, and wonders is spreading like wildfire.\r\nCIA operative David Shirazi was born for this moment. He is recruited and sent into Tehran with one objective: use all means necessary to disrupt Iran\u0092s nuclear weapons program, without leaving American fingerprints and without triggering an apocalyptic new war.\r\nBut time is running out.",
+      "is_active": true,
+      "created": "2018-09-12T15:35:44.558Z",
+      "updated": "2018-09-12T15:35:44.558Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 8,
+   "fields": {
+      "name": "The Auschwitz Escape. Joel C. Rosenberg",
+      "price": "1200.00",
+      "discount": 0,
+      "category": 2,
+      "short_description": "",
+      "description": "A terrible darkness has fallen upon Jacob Weisz\u0092s beloved Germany. The Nazi regime, under the leadership of Adolf Hitler, has surged to power and now hold Germany by the throat. All non-Aryans\u0097especially Jews like Jacob and his family\u0097are treated like dogs.\r\nWhen tragedy strikes during one terrible night of violence, Jacob flees and joins rebel forces working to undermine the regime. But after a raid goes horribly wrong, Jacob finds himself in a living nightmare\u0097trapped in a crowded, stinking car on the train to the Auschwitz death camp.\r\nAs World War II rages and Hitler begins implementing his \u0093final solution\u0094 to systematically and ruthlessly exterminate the Jewish people, Jacob must rely on his wits and a God he\u0092s not sure he believes in to somehow escape from Auschwitz and alert the world to the Nazi\u0092s atrocities before Fascism overtakes all of Europe. The fate of millions hangs in the balance.",
+      "is_active": true,
+      "created": "2018-09-12T15:40:55.102Z",
+      "updated": "2018-09-12T15:40:55.102Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 9,
+   "fields": {
+      "name": "The Quest Of The Sparrows. Kartik Sharma",
+      "price": "1100.00",
+      "discount": 2,
+      "category": 1,
+      "short_description": "",
+      "description": "A seemingly ordinary young man is forced to become a spiritual guru and takes a leap of faith. He sets off with his followers on a 600 km journey on foot, without money and belongings to test the truth of the scriptures and spiritual laws. Inspired by the life of a sparrow which survives every day without any worry and never hoards for the future,  he wishes to prove that survival, which has become a central concern of all human beings is no big deal. He believes that human beings are destined to play a much bigger, evolutionary role. A higher calling awaits us. Will Guru Partibhan and his disciples complete the journey, successfully? Will they discover their true potential and find everlasting joy? The journey is experienced from the perspective of four people - The explorer, the experimenter, the doubter and the hater. Each of these states exist in most individuals, at some point or another in their life's journey. What insights does the journey reveal to these protagonists? Does it change their mindsets and lives forever? The twists in the tale will keep the reader guessing till the end.",
+      "is_active": true,
+      "created": "2018-09-12T15:43:46.157Z",
+      "updated": "2018-09-12T15:43:46.158Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 10,
+   "fields": {
+      "name": "The Fifth Mountain. Paulo Coelho",
+      "price": "720.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "Paulo\u2019s writing is a visionary blend of spirituality, magical realism and folklore. His stories are simple and direct, yet they have the power to change lives and inspire you with the courage to follow your dreams\u2026\u2026\r\nHis fifth novel, The Fifth Mountain, is set in the 9th century BC. Elijah is a young man struggling to maintain his sanity amidst a chaotic world of tyranny and war. Forced to flee his home, then choose between his newfound love and security and his overwhelming sense of duty, this is a moving and inspiring story about how we can transcend even the most terrible ordeals by keeping faith and love alive.",
+      "is_active": true,
+      "created": "2018-09-12T15:49:12.370Z",
+      "updated": "2018-09-12T15:49:12.371Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 11,
+   "fields": {
+      "name": "The Last Gambit. Om Swami",
+      "price": "820.00",
+      "discount": 1,
+      "category": 1,
+      "short_description": "",
+      "description": "'Success by design is infinitely better than a win by chance.' Vasu Bhatt is fourteen years old when a mysterious old man spots him at a chess tournament and offers to coach him, on two simple but strange conditions: he would not accompany his student to tournaments, and there was to be no digging into his past. Initially resentful, Vasu begins to gradually understand his master's mettle. Over eight years, master and student come to love and respect each other, but the two conditions remain unbroken - until Vasu confronts and provokes the old man. Meanwhile, their hard work and strategy pay off: Vasu qualifies for the World Chess Championship. But can he make it all the way without his master by his side? Inspiring, moving and mercurial, The Last Gambit is a beautiful coming-of-age tale in a uniquely Indian context.",
+      "is_active": true,
+      "created": "2018-09-12T15:54:36.426Z",
+      "updated": "2018-09-12T15:54:36.426Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 12,
+   "fields": {
+      "name": "Red War. Vince Flynn",
+      "price": "1250.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "When Russian president Maxim Krupin discovers that he has inoperable brain cancer, he\u2019s determined to cling to power. His first task is to kill or imprison any of his countrymen who can threaten him. Soon, though, his illness becomes serious enough to require a more dramatic diversion - war with the West.\r\nUpon learning of Krupin\u2019s condition, CIA director Irene Kennedy understands that the US is facing an opponent who has nothing to lose. The only way to avoid a confrontation that could leave millions dead is to send Mitch Rapp to Russia under impossibly dangerous orders. With the Kremlin\u2019s entire security apparatus hunting him, he must find and kill a man many have deemed the most powerful in the world.\r\nSuccess means averting a war that could consume all of Europe. But if his mission is discovered, Rapp will plunge Russia and America into a conflict that neither will survive.",
+      "is_active": true,
+      "created": "2018-09-12T15:57:58.190Z",
+      "updated": "2018-09-12T15:57:58.190Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 13,
+   "fields": {
+      "name": "Steve Jobs. George Ilian",
+      "price": "1500.00",
+      "discount": 5,
+      "category": 1,
+      "short_description": "",
+      "description": "This book offers an introduction to Jobs, his business success while building the most valuable company in the world and the lessons that we can learn from him. It is not a text book nor a biography, but more of a cheat sheet for reading on the bus or in the bathroom, so that you can pick out the most significant points without having to carry around a bag of weighty tomes. You can read it all in one sitting, or look up specific case studies as and when you are looking for inspiration or direction. The 50 lessons outlined here are drawn from interviews Jobs has given, from the numerous blogs and books written about him, and, most importantly, from the successes and failures on his road to the Building the greatest company and products in the world.",
+      "is_active": true,
+      "created": "2018-09-12T16:00:37.932Z",
+      "updated": "2018-09-12T16:00:37.932Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 14,
+   "fields": {
+      "name": "Homo Deus: A Brief History of Tomorrow. Yuval Noah Harari",
+      "price": "1800.00",
+      "discount": 0,
+      "category": 1,
+      "short_description": "",
+      "description": "The book sets out to examine possibilities of the future of Homo sapiens. The premise outlines that during the 21st Century, humanity is likely to make a significant attempt to gain happiness, immortality and God-like powers. Throughout the book, Harari openly speculates various ways that this ambition might be realised in the future based on the past and present.",
+      "is_active": true,
+      "created": "2018-09-12T16:05:10.468Z",
+      "updated": "2018-09-12T16:05:10.468Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 15,
+   "fields": {
+      "name": "The Alchemist. Paulo Coelho",
+      "price": "1320.00",
+      "discount": 2,
+      "category": 1,
+      "short_description": "",
+      "description": "Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, dazzling in its powerful simplicity and inspiring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried in the Pyramids. Along the way he meets a Gypsy woman, a man who calls himself.",
+      "is_active": true,
+      "created": "2018-09-12T16:09:28.521Z",
+      "updated": "2018-09-12T16:09:28.521Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 16,
+   "fields": {
+      "name": "Passenger. Alexandra Bracken",
+      "price": "720.00",
+      "discount": 3,
+      "category": 1,
+      "short_description": "",
+      "description": "Fans of Outlander and Red Queen will be swept away by this epic New York Times bestselling story of love, adventure and deceit. In one devastating night, Etta Spencer loses everything she knows and loves. Thrust into an unfamiliar world by a stranger with a dangerous agenda, Etta is certain of only one thing: she has travelled not just miles but years from home. Nicholas Carter is content with his life at sea, free from the Ironwoods - a powerful family in the Colonies - and the servitude he's known at their hands. But with the arrival of an unusual passenger on his ship comes the insistent pull of the past he can't escape and the family that won't let him go. Now the Ironwoods are searching for a stolen object of untold value, one they believe only Etta, his passenger, can find. Together, Etta and Nicholas embark on a perilous journey across centuries and continents, piecing together clues left behind by the traveller who will do anything to keep the object out of the Ironwoods' grasp. But as they get closer to their target, treacherous forces threaten to separate Etta not only from Nicholas but from her path home forever.",
+      "is_active": true,
+      "created": "2018-09-12T16:16:37.313Z",
+      "updated": "2018-09-12T16:16:37.313Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 14,
+   "fields": {
+      "product": 1,
+      "image": "products_images/danbrownorigin_13dOkcQ.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-11T18:06:13.446Z",
+      "updated": "2018-09-11T18:20:59.132Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 15,
+   "fields": {
+      "product": 2,
+      "image": "products_images/dalailamacat_7gmCiMr.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-11T18:10:30.277Z",
+      "updated": "2018-09-11T18:21:23.207Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 16,
+   "fields": {
+      "product": 3,
+      "image": "products_images/thegreatestsalesman_oExW9FF.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-11T18:19:53.623Z",
+      "updated": "2018-09-11T18:21:28.340Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 17,
+   "fields": {
+      "product": 4,
+      "image": "products_images/siddhartha_fiE4wVN.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-11T18:25:26.931Z",
+      "updated": "2018-09-11T18:25:26.931Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 18,
+   "fields": {
+      "product": 5,
+      "image": "products_images/mobydick_EG5CNq9.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-11T18:30:23.060Z",
+      "updated": "2018-09-11T18:30:23.060Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 19,
+   "fields": {
+      "product": 6,
+      "image": "products_images/beneathcopperfalls_ml8d0fk.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:33:20.671Z",
+      "updated": "2018-09-12T15:33:20.671Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 20,
+   "fields": {
+      "product": 7,
+      "image": "products_images/thetwelfthimam_tSINkwh.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:35:44.617Z",
+      "updated": "2018-09-12T15:35:44.617Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 21,
+   "fields": {
+      "product": 8,
+      "image": "products_images/theauschwitz_eDFM040.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:40:55.106Z",
+      "updated": "2018-09-12T15:40:55.106Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 22,
+   "fields": {
+      "product": 9,
+      "image": "products_images/thequest_Z2EGIRR.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:43:46.162Z",
+      "updated": "2018-09-12T15:43:46.162Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 23,
+   "fields": {
+      "product": 10,
+      "image": "products_images/paulocoelho_SJjzm3r.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:49:12.379Z",
+      "updated": "2018-09-12T15:49:12.379Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 24,
+   "fields": {
+      "product": 11,
+      "image": "products_images/thelastgambit_4ijlbyG.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:54:36.433Z",
+      "updated": "2018-09-12T15:54:36.434Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 25,
+   "fields": {
+      "product": 12,
+      "image": "products_images/redwar_DDzIL0X.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T15:57:58.194Z",
+      "updated": "2018-09-12T15:57:58.194Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 26,
+   "fields": {
+      "product": 13,
+      "image": "products_images/stevejobs_SNuWodi.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T16:00:37.935Z",
+      "updated": "2018-09-12T16:00:37.935Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 27,
+   "fields": {
+      "product": 14,
+      "image": "products_images/homodeus_m1YR8TL.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T16:05:10.471Z",
+      "updated": "2018-09-12T16:05:10.473Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 28,
+   "fields": {
+      "product": 15,
+      "image": "products_images/thealchemist_e4neHeq.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T16:09:28.525Z",
+      "updated": "2018-09-12T16:09:28.525Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 29,
+   "fields": {
+      "product": 16,
+      "image": "products_images/passenger_CJgPmZV.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-09-12T16:16:37.318Z",
+      "updated": "2018-09-12T16:16:37.318Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 1,
+   "fields": {
+      "name": "New",
+      "is_active": true,
+      "created": "2017-01-22T15:15:59.319Z",
+      "updated": "2018-09-12T16:17:37.463Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 2,
+   "fields": {
+      "name": "In work",
+      "is_active": true,
+      "created": "2017-01-22T15:16:05.599Z",
+      "updated": "2018-09-12T16:17:47.973Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 3,
+   "fields": {
+      "name": "Canceled",
+      "is_active": true,
+      "created": "2017-01-22T15:16:10.948Z",
+      "updated": "2018-09-12T16:17:58.523Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 4,
+   "fields": {
+      "name": "Ready",
+      "is_active": true,
+      "created": "2017-01-22T15:16:18.243Z",
+      "updated": "2018-09-12T16:18:09.843Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 2,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 2,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 2,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 3,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 3,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 3,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add subscribers",
+      "content_type": 7,
+      "codename": "add_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change subscribers",
+      "content_type": 7,
+      "codename": "change_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete subscribers",
+      "content_type": 7,
+      "codename": "delete_subscribers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add subscriber",
+      "content_type": 7,
+      "codename": "add_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change subscriber",
+      "content_type": 7,
+      "codename": "change_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete subscriber",
+      "content_type": 7,
+      "codename": "delete_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "add_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "change_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "delete_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "add_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "change_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 10,
+      "codename": "delete_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can add \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "add_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can change \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "change_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can delete \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 11,
+      "codename": "delete_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 12,
+      "codename": "add_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 12,
+      "codename": "change_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 12,
+      "codename": "delete_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can add \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "add_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can change \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "change_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can delete \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "delete_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "add_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "change_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "delete_productinbasket"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 6,
+   "fields": {
+      "password": "pbkdf2_sha256$30000$bGllUMaWicOl$wrh5umHugC3gVmKJMzuLQ+BzYMdfGZNu8svw/t7EF/k=",
+      "last_login": "2018-09-22T09:52:11.639Z",
+      "is_superuser": true,
+      "username": "serg",
+      "first_name": "",
+      "last_name": "",
+      "email": "sergiishevchenko017@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-09-11T17:26:09.940Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.056Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 12 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.210Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 11 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.302Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 10 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.418Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 9 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.511Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 8 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.601Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 7 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.701Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 6 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.785Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 5 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.892Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 4 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2018-09-11T17:29:04.991Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 3 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2018-09-11T17:29:05.103Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 2 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2018-09-11T17:29:05.199Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 1 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2018-09-11T17:50:47.633Z",
+      "user": 6,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Books",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 79,
+   "fields": {
+      "action_time": "2018-09-11T17:50:57.144Z",
+      "user": 6,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Laptops",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 80,
+   "fields": {
+      "action_time": "2018-09-11T18:06:13.447Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "1000, Origin. Dan Brown",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"price\", \"discount\", \"description\"]}}, {\"added\": {\"object\": \"14\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 81,
+   "fields": {
+      "action_time": "2018-09-11T18:10:30.278Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "1200, The Dalai Lama's Cat. David Michie",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"price\", \"description\"]}}, {\"added\": {\"object\": \"15\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 82,
+   "fields": {
+      "action_time": "2018-09-11T18:19:53.624Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "1500, The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"price\", \"description\"]}}, {\"added\": {\"object\": \"16\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 83,
+   "fields": {
+      "action_time": "2018-09-11T18:20:59.134Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "1000.00, Origin. Dan Brown",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_main\"], \"object\": \"14\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 84,
+   "fields": {
+      "action_time": "2018-09-11T18:21:23.209Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "1200.00, The Dalai Lama's Cat. David Michie",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_main\"], \"object\": \"15\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 85,
+   "fields": {
+      "action_time": "2018-09-11T18:21:28.341Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "1500.00, The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_main\"], \"object\": \"16\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 86,
+   "fields": {
+      "action_time": "2018-09-11T18:25:26.932Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "1225, Siddhartha. Hermann Hesse",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"price\", \"category\", \"description\"]}}, {\"added\": {\"object\": \"17\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}, {\"deleted\": {\"object\": \"None\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 87,
+   "fields": {
+      "action_time": "2018-09-11T18:25:34.060Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "1225.00, Siddhartha. Hermann Hesse",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 88,
+   "fields": {
+      "action_time": "2018-09-11T18:30:23.061Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "850, Moby Dick. Herman Melville",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"18\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 89,
+   "fields": {
+      "action_time": "2018-09-11T18:30:36.566Z",
+      "user": 6,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Audiobooks",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 90,
+   "fields": {
+      "action_time": "2018-09-11T18:34:15.012Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "14",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 14 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 91,
+   "fields": {
+      "action_time": "2018-09-11T18:34:15.162Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 13 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 92,
+   "fields": {
+      "action_time": "2018-09-12T15:33:20.684Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "850, Beneath Copper Falls. Colleen Coble",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"19\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 93,
+   "fields": {
+      "action_time": "2018-09-12T15:35:44.618Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "900, The Twelfth Imam. Joel C. Rosenberg",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"20\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 94,
+   "fields": {
+      "action_time": "2018-09-12T15:40:55.107Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "1200, The Auschwitz Escape. Joel C. Rosenberg",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"21\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 95,
+   "fields": {
+      "action_time": "2018-09-12T15:43:46.163Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "9",
+      "object_repr": "1100, The Quest Of The Sparrows. Kartik Sharma",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"22\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 96,
+   "fields": {
+      "action_time": "2018-09-12T15:49:12.381Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "720, The Fifth Mountain. Paulo Coelho",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"23\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 97,
+   "fields": {
+      "action_time": "2018-09-12T15:54:36.434Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "820, The Last Gambit. Om Swami",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"24\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 98,
+   "fields": {
+      "action_time": "2018-09-12T15:57:58.195Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "1250, Red War. Vince Flynn",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"25\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 99,
+   "fields": {
+      "action_time": "2018-09-12T16:00:37.936Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "1500, Steve Jobs. George Ilian",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"26\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 100,
+   "fields": {
+      "action_time": "2018-09-12T16:05:10.474Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "1800, Homo Deus: A Brief History of Tomorrow. Yuval Noah Harari",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"27\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 101,
+   "fields": {
+      "action_time": "2018-09-12T16:09:28.526Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "1320, The Alchemist. Paulo Coelho",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"28\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 102,
+   "fields": {
+      "action_time": "2018-09-12T16:16:37.319Z",
+      "user": 6,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "720, Passenger. Alexandra Bracken",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"29\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 103,
+   "fields": {
+      "action_time": "2018-09-12T16:17:15.981Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "31",
+      "object_repr": "The Dalai Lama's Cat. David Michie",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 104,
+   "fields": {
+      "action_time": "2018-09-12T16:17:37.464Z",
+      "user": 6,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 New",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 105,
+   "fields": {
+      "action_time": "2018-09-12T16:17:47.975Z",
+      "user": 6,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 In work",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 106,
+   "fields": {
+      "action_time": "2018-09-12T16:17:58.525Z",
+      "user": 6,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 Canceled",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 107,
+   "fields": {
+      "action_time": "2018-09-12T16:18:09.845Z",
+      "user": 6,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 Ready",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 108,
+   "fields": {
+      "action_time": "2018-09-12T16:20:47.522Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "15",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 15 New",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 109,
+   "fields": {
+      "action_time": "2018-09-12T16:21:06.755Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "15",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 15 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 110,
+   "fields": {
+      "action_time": "2018-09-12T16:25:35.566Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "1234",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 111,
+   "fields": {
+      "action_time": "2018-09-12T16:25:35.700Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "12345",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 112,
+   "fields": {
+      "action_time": "2018-09-12T16:25:35.791Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "123456",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 113,
+   "fields": {
+      "action_time": "2018-09-12T16:25:35.891Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "9",
+      "object_repr": "2323232",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 114,
+   "fields": {
+      "action_time": "2018-09-12T16:25:35.974Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "8",
+      "object_repr": "45",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 115,
+   "fields": {
+      "action_time": "2018-09-12T16:25:36.068Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "9319751825",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 116,
+   "fields": {
+      "action_time": "2018-09-12T16:25:36.182Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "admin",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 117,
+   "fields": {
+      "action_time": "2018-09-12T16:25:36.299Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "dfsdf",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 118,
+   "fields": {
+      "action_time": "2018-09-12T16:38:24.515Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "19",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 119,
+   "fields": {
+      "action_time": "2018-09-12T16:38:32.024Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "35",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 120,
+   "fields": {
+      "action_time": "2018-09-12T16:39:02.819Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c Test1 codingmedved@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 121,
+   "fields": {
+      "action_time": "2018-09-12T16:39:02.915Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c Test1234 coding.medved@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 122,
+   "fields": {
+      "action_time": "2018-09-12T16:39:03.005Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c test12 codingmedved12@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 123,
+   "fields": {
+      "action_time": "2018-09-12T16:39:03.114Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c codingmedved codingmedved@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 124,
+   "fields": {
+      "action_time": "2018-09-12T16:39:03.197Z",
+      "user": 6,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c Medved codingmedved@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 125,
+   "fields": {
+      "action_time": "2018-09-22T09:52:45.867Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "49",
+      "object_repr": "Beneath Copper Falls. Colleen Coble",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 126,
+   "fields": {
+      "action_time": "2018-09-22T09:52:45.995Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "48",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 127,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.070Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "47",
+      "object_repr": "Homo Deus: A Brief History of Tomorrow. Yuval Noah Harari",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 128,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.144Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "46",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 129,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.219Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "45",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 130,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.286Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "44",
+      "object_repr": "The Dalai Lama's Cat. David Michie",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 131,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.336Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "43",
+      "object_repr": "Beneath Copper Falls. Colleen Coble",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 132,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.403Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "42",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 133,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.477Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "41",
+      "object_repr": "Origin. Dan Brown",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 134,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.544Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "40",
+      "object_repr": "The Fifth Mountain. Paulo Coelho",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 135,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.611Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "39",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 136,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.668Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "38",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 137,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.743Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "37",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 138,
+   "fields": {
+      "action_time": "2018-09-22T09:52:46.818Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "36",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 139,
+   "fields": {
+      "action_time": "2018-09-22T09:52:55.063Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "24",
+      "object_repr": "Beneath Copper Falls. Colleen Coble",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 140,
+   "fields": {
+      "action_time": "2018-09-22T09:52:55.133Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "23",
+      "object_repr": "Siddhartha. Hermann Hesse",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 141,
+   "fields": {
+      "action_time": "2018-09-22T09:52:55.199Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "22",
+      "object_repr": "The Dalai Lama's Cat. David Michie",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 142,
+   "fields": {
+      "action_time": "2018-09-22T09:52:55.266Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "21",
+      "object_repr": "Beneath Copper Falls. Colleen Coble",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 143,
+   "fields": {
+      "action_time": "2018-09-22T09:52:55.332Z",
+      "user": 6,
+      "content_type": 10,
+      "object_id": "20",
+      "object_repr": "The Greatest Salesman in the World. Og Mandino",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 144,
+   "fields": {
+      "action_time": "2018-09-22T09:53:04.456Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "20",
+      "object_repr": "Order 20 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 145,
+   "fields": {
+      "action_time": "2018-09-22T09:53:04.537Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "19",
+      "object_repr": "Order 19 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 146,
+   "fields": {
+      "action_time": "2018-09-22T09:53:04.612Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "18",
+      "object_repr": "Order 18 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 147,
+   "fields": {
+      "action_time": "2018-09-22T09:53:04.678Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "17",
+      "object_repr": "Order 17 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 148,
+   "fields": {
+      "action_time": "2018-09-22T09:53:04.753Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "16",
+      "object_repr": "Order 16 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 149,
+   "fields": {
+      "action_time": "2018-09-23T07:31:49.713Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "22",
+      "object_repr": "Order 22 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 150,
+   "fields": {
+      "action_time": "2018-09-23T07:31:49.809Z",
+      "user": 6,
+      "content_type": 12,
+      "object_id": "21",
+      "object_repr": "Order 21 New",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 151,
+   "fields": {
+      "action_time": "2018-09-23T07:32:00.535Z",
+      "user": 6,
+      "content_type": 14,
+      "object_id": "50",
+      "object_repr": "The Dalai Lama's Cat. David Michie",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 152,
+   "fields": {
+      "action_time": "2018-09-23T07:32:21.083Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "14",
+      "object_repr": "+7 (999) 214-59-84",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 153,
+   "fields": {
+      "action_time": "2018-09-23T07:32:21.191Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "12",
+      "object_repr": "23432",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 154,
+   "fields": {
+      "action_time": "2018-09-23T07:32:21.264Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "13",
+      "object_repr": "5646",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 155,
+   "fields": {
+      "action_time": "2018-09-23T07:32:21.340Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "11",
+      "object_repr": "7989",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 156,
+   "fields": {
+      "action_time": "2018-09-23T07:32:21.398Z",
+      "user": 6,
+      "content_type": 4,
+      "object_id": "10",
+      "object_repr": "9319751825",
+      "action_flag": 3,
+      "change_message": ""
+   }
+}
+]

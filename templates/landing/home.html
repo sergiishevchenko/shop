@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="general-container">
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1 class="title">Welcome to my first e-shop! <br> This is my first experience of using Django and Python.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        New releases
+                    </h1>
+                </div>
+                {% for product_image in products_images %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section section2 books-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Books
+                    </h1>
+                </div>
+                {% for product_image in products_images_books %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <div class="section section3 audiobooks-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">
+                        Audiobooks
+                    </h1>
+                </div>
+                {% for product_image in products_images_audiobooks %}
+                    {% include 'landing/product_item.html' %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

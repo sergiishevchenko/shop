@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                {% for image_item in product.productimage_set.all %}
+                    <div class="product-image-item">
+                        <img src="{{ image_item.image.url }}" class="img-responsive">
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="col-lg-6">
+                <h1 class="text-center">
+                    {{ product.name }}
+                </h1>
+                <div style="color: #333344;font-weight: bold" class="">
+                    <p>
+                        Price: {{ product.price }}
+                    </p>
+                </div>
+                <div>
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a style="font-weight: bold" href="#description" aria-controls="home" role="tab" data-toggle="tab">
+                                Description
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a style="font-weight: bold" href="#delivery" aria-controls="profile" role="tab" data-toggle="tab">
+                                Shipping @ Delivery
+                            </a>
+                        </li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content product-description-tabs">
+                        <div style="color: #337abf;font-weight: bold;text-align: justify" role="tabpanel" class="tab-pane active" id="description">
+                            {{ product.description }}
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="delivery">
+                            <h4>Shipping Policy:</h4>
+                            <p style="color: #337abf;font-weight: bold;text-align: justify">We offer guaranteed delivery on certain fast delivery speeds and select products. When guaranteed delivery is available on an order, it will be clearly marked on the checkout page with an associated delivery date and fee (if applicable).</p>
+                            <p style="color: #337abf;font-weight: bold;text-align: justify">The only shipping option for these items is our Expedited Chilled Shipping method. These items ship in Styrofoam containers with cooling gel packs and arrive 1-2 days after leaving our fulfillment center.</p>
+                            <p style="color: #337abf;font-weight: bold;text-align: justify">Every time you place an order via the Shopping Cart that contains more than one delivery date, you can choose for your order to be shipped in the fewest possible packages or for your order to be shipped as soon as each item it becomes available.</p>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+                        <div class="form-group">
+                             <input type="number" class="form-control" name="number" id="number">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="submit_btn" class="btn btn-warning btn-buy"
+                                data-product_id = "{{ product.id }}"
+                                data-name = "{{ product.name }}"
+                                data-price = "{{ product.price }}"
+                            >
+                                Buy
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
